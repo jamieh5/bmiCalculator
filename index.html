@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 class="main-heading">
+      <span class="span-blue">B</span>ody <span class="span-blue">M</span>ass
+      <span class="span-blue">I</span>ndex Calculator
+    </h1>
+    <div class="container">
+      <form action="">
+        <div class="row-one">
+            <input type="text" id="input-height" class="text-input">
+            <label for="input-height">Height (m)</label>
+        </div>
+      
+        <div class="row-two">
+          <input type="text" id="input-weight" class="text-input">
+          <label for="input-weight">Weight (kg)</label>
+        </div>
+          <button class="submit" type="button">Submit</button>
+      </form>
+      </div>
+    </div>
+
+    <div class="modal hidden">
+      <button class="close-modal">&times;</button>
+      <h1 class="show-bmi">
+        BMI 
+      </h1>
+      <p class="text-health">Healthy</p>
+    </div>
+    <div class="overlay hidden"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
